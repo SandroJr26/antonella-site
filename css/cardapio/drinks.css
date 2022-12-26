@@ -1,0 +1,28 @@
+#drinks h2 {
+  margin-bottom: 32px;
+}
+
+#drinks h3 {
+  margin-bottom: 12px;
+}
+
+#drinks p {
+  margin-bottom: 20px;
+}
+.classe-drinks {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  #drinks h2 {
+    margin-bottom: 16px;
+  }
+
+  #drinks h3 {
+    margin-bottom: 12px;
+  }
+
+  #drinks p {
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,9 @@
+/* Global */
+@import url("./global/container.css");
+@import url("./global/header.css");
+@import url("./global/global.css");
+
+/* Cardápio */
+@import url("./cardapio/cozinha.css");
+@import url("./cardapio/pizzaria.css");
+@import url("./cardapio/drinks.css");

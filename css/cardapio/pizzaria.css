@@ -1,0 +1,52 @@
+#pizzaria h2 {
+  margin-bottom: 32px;
+}
+
+#pizzaria h3 {
+  margin-bottom: 12px;
+}
+
+#pizzaria p {
+  margin-bottom: 32px;
+}
+
+#pizzas,
+#pizzas-doce {
+  padding-top: 8px;
+}
+
+@media (max-width: 800px) {
+  #cardapio-pizzaria h2 {
+    margin-bottom: 20px;
+  }
+
+  #cardapio-pizzaria h3 {
+    margin-bottom: 8px;
+  }
+
+  #cardapio-pizzaria .risotos {
+    margin-bottom: 16px;
+  }
+
+  #cardapio-pizzaria p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #cardapio-pizzaria h1 {
+    margin-bottom: 16px;
+  }
+  .classificacao li {
+    gap: 20px;
+  }
+  #cardapio-pizzaria h2 {
+    margin-bottom: 20px;
+  }
+  #cardapio-pizzaria h3 {
+    margin-bottom: 8px;
+  }
+  #cardapio-pizzaria p {
+    margin-bottom: 20px;
+  }
+}
