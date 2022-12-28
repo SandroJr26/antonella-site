@@ -41,7 +41,10 @@ img[src$=".jpg"] {
 h3 {
   margin-top: 40px;
   margin-left: 12px;
-  color: var(--cor-7);
+  text-transform: uppercase;
+}
+
+h4 {
   text-transform: uppercase;
 }
 
@@ -52,4 +55,9 @@ h3 {
     var(--cor-b1) 45%
   );
   width: 50%;
+}
+
+.itens-menu a {
+  text-transform: uppercase;
+  font-weight: 500;
 }

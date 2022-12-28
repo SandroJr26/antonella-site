@@ -16,3 +16,7 @@
 .cardapio a {
   color: var(--cor-6);
 }
+
+.itens-menu {
+  margin-left: 12px;
+}

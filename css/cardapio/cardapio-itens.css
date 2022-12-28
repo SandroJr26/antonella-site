@@ -1,0 +1,47 @@
+.cardapio-itens {
+  margin-top: 40px;
+  margin-left: 12px;
+}
+
+.cardapio-itens div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 32px;
+}
+
+.cardapio-itens h4 {
+  margin-bottom: 12px;
+}
+
+.cardapio-itens p {
+  margin-bottom: 8px;
+  grid-column: 1;
+  color: var(--cor-5);
+  text-transform: uppercase;
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.cardapio-itens img {
+  grid-column: 2;
+  display: block;
+  position: absolute;
+  right: 80px;
+}
+
+.cardapio-itens span {
+  grid-column: 1;
+  color: var(--cor-6);
+  font: 500 1.5rem/1.2 "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.cardapio-itens::before {
+  content: "";
+  background-image: url("/imagens/detalhe.svg");
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  right: 420px;
+  width: 12px;
+  height: 100%;
+}
